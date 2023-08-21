@@ -7,3 +7,5 @@
 
 # To start the app
 -npm start
+# Deployed Site 
+-link :- https://64e31f091120115e902796c4--magenta-cupcake-14f4e7.netlify.app/
