@@ -1,0 +1,55 @@
+.img{
+    min-height: 100vh;
+    background-image: url('../images/562265-sunlight-dark-nature-sky-landscape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px;
+}
+.city {
+    font-size: 2rem;
+    color: #fff; 
+  }
+  
+  .date {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .temp {
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  .weather-data {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .weather-data p {
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .forecast {
+    background: rgba(0,0,0,0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .forecast h2 {
+    color: #fff;
+  }
+  
+  .forecast h5 {
+    color: #fff;  
+  }
+  
+  .forecast strong {
+    color: #fff;
+  }
+  
+  .forecast p {
+    color: #fff;
+  }
