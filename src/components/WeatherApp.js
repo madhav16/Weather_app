@@ -19,6 +19,7 @@ function WeatherApp() {
                 `https://api.weatherapi.com/v1/current.json?key=ed9a8007a4c84806af755125232108&q=${city}`
             );
             setWeather(response.data);
+            fetchForecast();
         } catch (error) {
             console.error('Error fetching weather:', error);
         }
